@@ -1,5 +1,4 @@
 {
-  "size": 622027.0,
   "files": [
     {
       "size": 27091,
@@ -26,7 +25,7 @@
       "path": "src/object.js"
     },
     {
-      "size": 32156,
+      "size": 32600,
       "path": "src/report-app.css"
     },
     {
@@ -38,5 +37,6 @@
       "path": "src/styles.css"
     }
   ],
-  "version": "6.22.7"
+  "version": "6.22.8",
+  "size": 622471.0
 }

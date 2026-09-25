@@ -25,7 +25,7 @@
       "path": "src/object.js"
     },
     {
-      "size": 43620,
+      "size": 44587,
       "path": "src/report-app.css"
     },
     {
@@ -38,5 +38,5 @@
     }
   ],
   "version": "6.25.8",
-  "size": 639150.0
+  "size": 640117.0
 }

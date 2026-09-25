@@ -1,13 +1,11 @@
 {
-  "version": "6.22.5",
-  "size": 619732.0,
   "files": [
     {
       "size": 27091,
       "path": "src/app.js"
     },
     {
-      "size": 10603,
+      "size": 11302,
       "path": "src/index.html"
     },
     {
@@ -38,5 +36,7 @@
       "size": 5487,
       "path": "src/styles.css"
     }
-  ]
+  ],
+  "version": "6.22.6",
+  "size": 620431.0
 }

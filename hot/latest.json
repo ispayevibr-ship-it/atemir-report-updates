@@ -1,42 +1,42 @@
 {
-  "version": "6.25.25",
-  "size": 652415.0,
   "files": [
     {
-      "size": 27091,
-      "path": "src/app.js"
+      "path": "src/app.js",
+      "size": 27091
     },
     {
-      "size": 12703,
-      "path": "src/index.html"
+      "path": "src/index.html",
+      "size": 12703
     },
     {
-      "size": 50081,
-      "path": "src/legacy-report.html"
+      "path": "src/legacy-report.html",
+      "size": 50081
     },
     {
-      "size": 140662,
-      "path": "src/object.css"
+      "path": "src/object.css",
+      "size": 140662
     },
     {
-      "size": 969,
-      "path": "src/object.html"
+      "path": "src/object.html",
+      "size": 969
     },
     {
-      "size": 223506,
-      "path": "src/object.js"
+      "path": "src/object.js",
+      "size": 223506
     },
     {
-      "size": 52538,
-      "path": "src/report-app.css"
+      "path": "src/report-app.css",
+      "size": 52538
     },
     {
-      "size": 139378,
-      "path": "src/report-app.js"
+      "path": "src/report-app.js",
+      "size": 139399
     },
     {
-      "size": 5487,
-      "path": "src/styles.css"
+      "path": "src/styles.css",
+      "size": 5487
     }
-  ]
+  ],
+  "version": "6.25.25",
+  "size": 652436.0
 }

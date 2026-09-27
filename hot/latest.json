@@ -1,42 +1,42 @@
 {
-  "size": 784681.0,
-  "version": "7.0.5",
+  "version": "7.0.4",
   "files": [
     {
-      "path": "src/app.js",
-      "size": 31226
+      "size": 31226,
+      "path": "src/app.js"
     },
     {
-      "path": "src/index.html",
-      "size": 16020
+      "size": 16020,
+      "path": "src/index.html"
     },
     {
-      "path": "src/legacy-report.html",
-      "size": 50081
+      "size": 50081,
+      "path": "src/legacy-report.html"
     },
     {
-      "path": "src/object.css",
-      "size": 140662
+      "size": 140662,
+      "path": "src/object.css"
     },
     {
-      "path": "src/object.html",
-      "size": 1161
+      "size": 1161,
+      "path": "src/object.html"
     },
     {
-      "path": "src/object.js",
-      "size": 223506
+      "size": 223506,
+      "path": "src/object.js"
     },
     {
-      "path": "src/report-app.css",
-      "size": 158012
+      "size": 158012,
+      "path": "src/report-app.css"
     },
     {
-      "path": "src/report-app.js",
-      "size": 158526
+      "size": 158526,
+      "path": "src/report-app.js"
     },
     {
-      "path": "src/styles.css",
-      "size": 5487
+      "size": 5487,
+      "path": "src/styles.css"
     }
-  ]
+  ],
+  "size": 784681.0
 }

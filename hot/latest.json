@@ -1,5 +1,6 @@
 {
-  "version": "7.0.13",
+  "size": 802110.0,
+  "version": "8.0.0",
   "files": [
     {
       "size": 31234,
@@ -12,6 +13,10 @@
     {
       "size": 50081,
       "path": "src/legacy-report.html"
+    },
+    {
+      "size": 6432,
+      "path": "src/object-v8.css"
     },
     {
       "size": 140662,
@@ -37,6 +42,5 @@
       "size": 5487,
       "path": "src/styles.css"
     }
-  ],
-  "size": 795678.0
+  ]
 }

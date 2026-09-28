@@ -1,6 +1,6 @@
 {
-  "size": 802110.0,
   "version": "8.0.0",
+  "size": 801841.0,
   "files": [
     {
       "size": 31234,
@@ -23,7 +23,7 @@
       "path": "src/object.css"
     },
     {
-      "size": 1199,
+      "size": 930,
       "path": "src/object.html"
     },
     {

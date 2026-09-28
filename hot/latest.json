@@ -14,7 +14,7 @@
     },
     {
       "path": "src/object-v8.css",
-      "size": 116252
+      "size": 118730
     },
     {
       "path": "src/object.css",
@@ -41,6 +41,6 @@
       "size": 5487
     }
   ],
-  "version": "8.0.80",
-  "size": 953004.0
+  "size": 955482.0,
+  "version": "8.0.80"
 }

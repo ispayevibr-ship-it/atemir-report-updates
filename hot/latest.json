@@ -1,5 +1,4 @@
 {
-  "version": "8.0.12",
   "files": [
     {
       "path": "src/app.js",
@@ -42,5 +41,6 @@
       "size": 5487
     }
   ],
+  "version": "8.0.13",
   "size": 817501.0
 }

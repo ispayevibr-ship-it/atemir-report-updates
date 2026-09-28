@@ -1,0 +1,31 @@
+/* А-Темир Строй — чистая база дизайна страницы объекта.
+   Здесь намеренно нет прежнего оформления. Все данные и логика остаются в report-app.js. */
+*{box-sizing:border-box}
+html,body{margin:0;min-height:100%;font-family:Arial,sans-serif;background:#fff;color:#111}
+button,input,select,textarea{font:inherit}
+.shell{display:grid;grid-template-columns:220px minmax(0,1fr);min-height:100vh}
+aside{padding:16px;border-right:1px solid #ddd;background:#fff}
+#companyBrand641{min-height:48px;margin-bottom:12px}
+#companyBrand641 img{max-width:100%;max-height:48px;object-fit:contain}
+aside>button{width:100%;margin-bottom:12px;padding:8px}
+#nav{display:flex;flex-direction:column;gap:4px}
+#nav button{padding:8px;text-align:left;border:1px solid #ddd;background:#fff}
+#nav button.on{font-weight:700;background:#eee}
+main{min-width:0;background:#fff}
+main>header{min-height:56px;padding:10px 16px;border-bottom:1px solid #ddd;display:flex;align-items:center;justify-content:space-between;gap:16px}
+main>header h1{margin:0;font-size:18px}
+main>header p{margin:2px 0 0}
+main>header button{padding:7px 10px}
+#saveState{margin-left:8px}
+#view{padding:16px;min-width:0}
+.objectOverview770{display:flex;flex-direction:column;gap:12px}
+.objectHero770,.objectKpis770,.objectMainChart770,.objectMid770,.objectBottomTop773,.objectBottomData773,.objectSecondary770,.monthlyCard801{width:100%}
+.objectHero770{padding:16px;border:1px solid #ddd}
+.objectPhoto770 img,.objectHero770 img{max-width:100%;height:auto}
+.objectKpis770,.objectMid770,.objectBottomTop773,.objectBottomData773,.objectSecondary770{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.card,.kpiGroup778{padding:16px;border:1px solid #ddd;background:#fff}
+.card h2,.card h3{margin-top:0}
+table{width:100%;border-collapse:collapse}
+th,td{padding:7px;border:1px solid #ddd;text-align:left}
+img{max-width:100%}
+@media(max-width:900px){.shell{grid-template-columns:1fr}aside{border-right:0;border-bottom:1px solid #ddd}.objectKpis770,.objectMid770,.objectBottomTop773,.objectBottomData773,.objectSecondary770{grid-template-columns:1fr}}

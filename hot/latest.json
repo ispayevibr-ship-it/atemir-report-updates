@@ -1,6 +1,4 @@
 {
-  "size": 927484.0,
-  "version": "8.0.61",
   "files": [
     {
       "path": "src/app.js",
@@ -42,5 +40,7 @@
       "path": "src/styles.css",
       "size": 5487
     }
-  ]
+  ],
+  "version": "8.0.60",
+  "size": 927484.0
 }

@@ -1,46 +1,46 @@
 {
-  "size": 946386.0,
-  "version": "8.0.75",
+  "version": "8.0.76",
   "files": [
     {
-      "size": 31945,
-      "path": "src/app.js"
+      "path": "src/app.js",
+      "size": 31945
     },
     {
-      "size": 16020,
-      "path": "src/index.html"
+      "path": "src/index.html",
+      "size": 16020
     },
     {
-      "size": 50081,
-      "path": "src/legacy-report.html"
+      "path": "src/legacy-report.html",
+      "size": 50081
     },
     {
-      "size": 114781,
-      "path": "src/object-v8.css"
+      "path": "src/object-v8.css",
+      "size": 114781
     },
     {
-      "size": 140662,
-      "path": "src/object.css"
+      "path": "src/object.css",
+      "size": 140662
     },
     {
-      "size": 1206,
-      "path": "src/object.html"
+      "path": "src/object.html",
+      "size": 1206
     },
     {
-      "size": 223506,
-      "path": "src/object.js"
+      "path": "src/object.js",
+      "size": 223506
     },
     {
-      "size": 168404,
-      "path": "src/report-app.css"
+      "path": "src/report-app.css",
+      "size": 168404
     },
     {
-      "size": 194294,
-      "path": "src/report-app.js"
+      "path": "src/report-app.js",
+      "size": 194294
     },
     {
-      "size": 5487,
-      "path": "src/styles.css"
+      "path": "src/styles.css",
+      "size": 5487
     }
-  ]
+  ],
+  "size": 946386.0
 }

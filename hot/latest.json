@@ -14,7 +14,7 @@
     },
     {
       "path": "src/object-v8.css",
-      "size": 83856
+      "size": 84271
     },
     {
       "path": "src/object.css",
@@ -34,13 +34,13 @@
     },
     {
       "path": "src/report-app.js",
-      "size": 191670
+      "size": 192451
     },
     {
       "path": "src/styles.css",
       "size": 5487
     }
   ],
-  "version": "8.0.48",
-  "size": 912837.0
+  "version": "8.0.49",
+  "size": 914033.0
 }

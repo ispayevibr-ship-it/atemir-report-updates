@@ -1,38 +1,42 @@
 {
-  "version": "8.0.184",
   "files": [
     {
-      "size": 36817,
-      "path": "src/app.js"
+      "path": "src/app.js",
+      "size": 36817
     },
     {
-      "size": 19347,
-      "path": "src/index.html"
+      "path": "src/index.html",
+      "size": 19347
     },
     {
-      "size": 186100,
-      "path": "src/object-v8.css"
+      "path": "src/object-v8.css",
+      "size": 186100
     },
     {
-      "size": 1206,
-      "path": "src/object.html"
+      "path": "src/object.css",
+      "size": 140662
     },
     {
-      "size": 223506,
-      "path": "src/object.js"
+      "path": "src/object.html",
+      "size": 1206
     },
     {
-      "size": 168404,
-      "path": "src/report-app.css"
+      "path": "src/object.js",
+      "size": 223506
     },
     {
-      "size": 236307,
-      "path": "src/report-app.js"
+      "path": "src/report-app.css",
+      "size": 168404
     },
     {
-      "size": 5487,
-      "path": "src/styles.css"
+      "path": "src/report-app.js",
+      "size": 236307
+    },
+    {
+      "path": "src/styles.css",
+      "size": 5487
     }
   ],
-  "size": 877174.0
+  "version": "8.0.184",
+  "size": 1017836.0
 }

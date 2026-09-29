@@ -1,30 +1,30 @@
 {
-  "version": "8.0.186",
+  "size": 647908.0,
   "files": [
     {
-      "size": 36357,
-      "path": "src/app.js"
+      "path": "src/app.js",
+      "size": 36468
     },
     {
-      "size": 19347,
-      "path": "src/index.html"
+      "path": "src/index.html",
+      "size": 19532
     },
     {
-      "size": 186100,
-      "path": "src/object-v8.css"
+      "path": "src/object-v8.css",
+      "size": 186100
     },
     {
-      "size": 1206,
-      "path": "src/object.html"
+      "path": "src/object.html",
+      "size": 1206
     },
     {
-      "size": 168404,
-      "path": "src/report-app.css"
+      "path": "src/report-app.css",
+      "size": 168404
     },
     {
-      "size": 236307,
-      "path": "src/report-app.js"
+      "path": "src/report-app.js",
+      "size": 236198
     }
   ],
-  "size": 647721.0
+  "version": "8.0.187"
 }

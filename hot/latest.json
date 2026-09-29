@@ -13,7 +13,7 @@
       "path": "src/legacy-report.html"
     },
     {
-      "size": 135824,
+      "size": 138786,
       "path": "src/object-v8.css"
     },
     {
@@ -33,7 +33,7 @@
       "path": "src/report-app.css"
     },
     {
-      "size": 201914,
+      "size": 202211,
       "path": "src/report-app.js"
     },
     {
@@ -41,6 +41,6 @@
       "path": "src/styles.css"
     }
   ],
-  "size": 975310.0,
-  "version": "8.0.96"
+  "version": "8.0.96",
+  "size": 978569.0
 }

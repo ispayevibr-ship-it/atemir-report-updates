@@ -34,7 +34,7 @@
       "path": "src/report-app.css"
     },
     {
-      "size": 215576,
+      "size": 215598,
       "path": "src/report-app.js"
     },
     {
@@ -42,5 +42,5 @@
       "path": "src/styles.css"
     }
   ],
-  "size": 1039881.0
+  "size": 1039903.0
 }

@@ -1,14 +1,13 @@
 {
-  "size": 1063232.0,
-  "version": "8.0.173",
+  "version": "8.0.174",
   "files": [
     {
       "path": "src/app.js",
-      "size": 34766
+      "size": 36726
     },
     {
       "path": "src/index.html",
-      "size": 16863
+      "size": 19347
     },
     {
       "path": "src/legacy-report.html",
@@ -42,5 +41,6 @@
       "path": "src/styles.css",
       "size": 5487
     }
-  ]
+  ],
+  "size": 1067676.0
 }

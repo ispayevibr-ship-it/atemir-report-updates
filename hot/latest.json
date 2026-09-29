@@ -34,13 +34,13 @@
     },
     {
       "path": "src/report-app.js",
-      "size": 222184
+      "size": 223123
     },
     {
       "path": "src/styles.css",
       "size": 5487
     }
   ],
-  "size": 1048004.0,
-  "version": "8.0.145"
+  "version": "8.0.146",
+  "size": 1048943.0
 }

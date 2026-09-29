@@ -1,5 +1,5 @@
 {
-  "size": 959361.0,
+  "version": "8.0.91",
   "files": [
     {
       "path": "src/app.js",
@@ -15,7 +15,7 @@
     },
     {
       "path": "src/object-v8.css",
-      "size": 123410
+      "size": 124560
     },
     {
       "path": "src/object.css",
@@ -42,5 +42,5 @@
       "size": 5487
     }
   ],
-  "version": "8.0.91"
+  "size": 960511.0
 }

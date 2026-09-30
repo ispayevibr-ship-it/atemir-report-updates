@@ -1,6 +1,5 @@
 {
   "size": 425087.0,
-  "version": "8.0.208",
   "files": [
     {
       "path": "src/app.js",
@@ -27,5 +26,6 @@
       "size": 217331,
       "sha256": "6a66f7d8645deb3c244452c6f5dc6868d08ed5a9ade820d97704d0b53b448c50"
     }
-  ]
+  ],
+  "version": "8.0.209"
 }

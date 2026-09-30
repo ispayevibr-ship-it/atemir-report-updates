@@ -1,5 +1,6 @@
 {
-  "version": "8.0.206",
+  "size": 427092.0,
+  "version": "8.0.207",
   "files": [
     {
       "size": 36810,
@@ -17,15 +18,14 @@
       "sha256": "6c5fd4d02f7a403f62d857977d1b5ac271ea9c018ec1f32c030365b10452255a"
     },
     {
-      "size": 2794,
+      "size": 3554,
       "path": "src/object.html",
-      "sha256": "0eefdab2cf26b2d8ba7a1a4ac26e249cf08260df8da890173ce90a4335cbe456"
+      "sha256": "7e431154af1cf31c7a0e235316f9e1bffb43b1e117d2960ec9f18b16b0205ef1"
     },
     {
       "size": 217331,
       "path": "src/report-app.js",
       "sha256": "6a66f7d8645deb3c244452c6f5dc6868d08ed5a9ade820d97704d0b53b448c50"
     }
-  ],
-  "size": 426332.0
+  ]
 }

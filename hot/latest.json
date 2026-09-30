@@ -1,31 +1,31 @@
 {
   "version": "8.0.211",
+  "size": 425378.0,
   "files": [
     {
-      "size": 36810,
       "sha256": "cdd73ba3ff78f8e132d267573f107fb352a756787c18a171d5f08b9a4a8474b7",
-      "path": "src/app.js"
+      "path": "src/app.js",
+      "size": 36810
     },
     {
-      "size": 17503,
       "sha256": "c59ae78ad3b967773d9e43a7b910db09e2315a35fd033a573b0995eb6bb7ea67",
-      "path": "src/index.html"
+      "path": "src/index.html",
+      "size": 17503
     },
     {
-      "size": 151894,
       "sha256": "6c5fd4d02f7a403f62d857977d1b5ac271ea9c018ec1f32c030365b10452255a",
-      "path": "src/object-v8.css"
+      "path": "src/object-v8.css",
+      "size": 151894
     },
     {
-      "size": 1549,
       "sha256": "64d534d521b9561decc4ec7f0198b4e6c28d28744e6f96eba184a90f678ae24f",
-      "path": "src/object.html"
+      "path": "src/object.html",
+      "size": 1549
     },
     {
-      "size": 217622,
       "sha256": "9d02923939108eb3ac33328bf19d892a13d7d692374d4624792816202e375f44",
-      "path": "src/report-app.js"
+      "path": "src/report-app.js",
+      "size": 217622
     }
-  ],
-  "size": 425378.0
+  ]
 }

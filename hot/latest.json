@@ -1,31 +1,31 @@
 {
-  "size": 425087.0,
   "files": [
     {
       "path": "src/app.js",
-      "size": 36810,
-      "sha256": "cdd73ba3ff78f8e132d267573f107fb352a756787c18a171d5f08b9a4a8474b7"
+      "sha256": "cdd73ba3ff78f8e132d267573f107fb352a756787c18a171d5f08b9a4a8474b7",
+      "size": 36810
     },
     {
       "path": "src/index.html",
-      "size": 17503,
-      "sha256": "c59ae78ad3b967773d9e43a7b910db09e2315a35fd033a573b0995eb6bb7ea67"
+      "sha256": "c59ae78ad3b967773d9e43a7b910db09e2315a35fd033a573b0995eb6bb7ea67",
+      "size": 17503
     },
     {
       "path": "src/object-v8.css",
-      "size": 151894,
-      "sha256": "6c5fd4d02f7a403f62d857977d1b5ac271ea9c018ec1f32c030365b10452255a"
+      "sha256": "6c5fd4d02f7a403f62d857977d1b5ac271ea9c018ec1f32c030365b10452255a",
+      "size": 151894
     },
     {
       "path": "src/object.html",
-      "size": 1549,
-      "sha256": "64d534d521b9561decc4ec7f0198b4e6c28d28744e6f96eba184a90f678ae24f"
+      "sha256": "64d534d521b9561decc4ec7f0198b4e6c28d28744e6f96eba184a90f678ae24f",
+      "size": 1549
     },
     {
       "path": "src/report-app.js",
-      "size": 217331,
-      "sha256": "6a66f7d8645deb3c244452c6f5dc6868d08ed5a9ade820d97704d0b53b448c50"
+      "sha256": "6a66f7d8645deb3c244452c6f5dc6868d08ed5a9ade820d97704d0b53b448c50",
+      "size": 217331
     }
   ],
-  "version": "8.0.209"
+  "version": "8.0.210",
+  "size": 425087.0
 }

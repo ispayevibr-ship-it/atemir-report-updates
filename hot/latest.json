@@ -1,5 +1,4 @@
 {
-  "size": 425491.0,
   "files": [
     {
       "path": "src/app.js",
@@ -23,9 +22,10 @@
     },
     {
       "path": "src/report-app.js",
-      "size": 217735,
-      "sha256": "4244ec7857b07389ae024f025dec7a6063602034c5b87bc7d96354e0750c0a4e"
+      "size": 218316,
+      "sha256": "0c82ff77ea83ca825f9302ab010c31b88026a4d4cb711f765b82039f30ee46a7"
     }
   ],
-  "version": "8.0.215"
+  "size": 426072.0,
+  "version": "8.0.218"
 }

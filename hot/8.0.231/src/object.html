@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>А-Темир Строй — Объект</title>
+<link rel="stylesheet" href="object-v8.css">
+</head>
+<body class="objectV8">
+<div class="shell">
+  <aside class="appSidebar">
+    <div class="sidebarBrand"><div id="companyBrand641"></div></div>
+    <button class="sidebarObjects" type="button" onclick="location.href='index.html'"><span>‹</span><b>Все объекты</b></button>
+    <nav id="nav"></nav>
+    <button class="sidebarTop" type="button" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="Наверх"><span>↑</span><b>Наверх</b></button>
+  </aside>
+  <main>
+    <header>
+      <div><h1 id="pageTitle">Обзор</h1><p id="pageSub"></p></div>
+      <div>
+        <button id="clearReport">Очистить отчёт</button>
+        <button id="htmlExport">HTML</button>
+        <button id="pdfExport">PDF</button>
+        <span id="saveState">Сохранено</span>
+      </div>
+    </header>
+    <section id="view"></section>
+  </main>
+</div>
+<script src="banner-frame.js"></script>
+<script>
+// v8.0.229: object.html is read-only with respect to object metadata.
+// UI-only daily report edit flags must not survive leaving and reopening an object.
+// A saved report always opens from the reports list; editing starts only after an explicit click.
+(async()=>{
+  try{
+    const objectId=new URLSearchParams(location.search).get("object")||"default";
+    const prefix="atemir_entity_"+objectId+"_report_";
+    const rows=window.atemirDesktop?.dbGetPrefixSync?.(prefix)||{};
+    const writes=[];
+    for(const [key,value] of Object.entries(rows)){
+      if(!value||typeof value!=="object"||value.isNewDraft720)continue;
+      let changed=value.editing===true;
+      const clean={...value,editing:false};
+      if(Array.isArray(value.items)){
+        clean.items=value.items.map(item=>{
+          if(item&&item.editing===true){changed=true;return {...item,editing:false}}
+          return item
+        });
+      }
+      if(changed&&window.atemirDesktop?.dbSet)writes.push(window.atemirDesktop.dbSet(key,clean));
+    }
+    if(writes.length)await Promise.all(writes);
+  }catch(e){console.error("Daily report navigation reset",e)}
+  const script=document.createElement("script");
+  script.src="report-app.js";
+  document.body.appendChild(script);
+})();
+</script>
+</body>
+</html>

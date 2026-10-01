@@ -1,4 +1,6 @@
 {
+  "size": 432223.0,
+  "version": "8.0.231",
   "files": [
     {
       "path": "src/app.js",
@@ -12,8 +14,8 @@
     },
     {
       "path": "src/daily-pagination.js",
-      "sha256": "b018cbaa691a0fc208b8b61a4802e962ecfd83a8b5fea5d287aac5dd1365409c",
-      "size": 1685
+      "sha256": "f9190a845d8ee7ab1bd1096602d74a9357597dc41e6e5a030ba7fbe411cd3751",
+      "size": 1947
     },
     {
       "path": "src/index.html",
@@ -35,7 +37,5 @@
       "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf",
       "size": 218402
     }
-  ],
-  "version": "8.0.230",
-  "size": 431961.0
+  ]
 }

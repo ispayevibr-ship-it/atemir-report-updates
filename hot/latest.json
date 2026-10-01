@@ -2,40 +2,40 @@
   "files": [
     {
       "path": "src/app.js",
-      "size": 34442,
-      "sha256": "1c3d0051ebeb797606924fe22c4b8523b7dc1002e620ae80767757f12947d5ec"
+      "sha256": "1c3d0051ebeb797606924fe22c4b8523b7dc1002e620ae80767757f12947d5ec",
+      "size": 34442
     },
     {
       "path": "src/banner-frame.js",
-      "size": 4564,
-      "sha256": "4773bc041c9098238a3b5e15a8bda9073efec75681d0dbc51e81857eaf4e29d5"
+      "sha256": "4773bc041c9098238a3b5e15a8bda9073efec75681d0dbc51e81857eaf4e29d5",
+      "size": 4564
     },
     {
       "path": "src/daily-pagination.js",
-      "size": 1685,
-      "sha256": "b018cbaa691a0fc208b8b61a4802e962ecfd83a8b5fea5d287aac5dd1365409c"
+      "sha256": "b018cbaa691a0fc208b8b61a4802e962ecfd83a8b5fea5d287aac5dd1365409c",
+      "size": 1685
     },
     {
       "path": "src/index.html",
-      "size": 17667,
-      "sha256": "cc4fc44db9310e9521c0beb2decabb20dbe22927a7e5d359be8a0017e4d8d209"
+      "sha256": "cc4fc44db9310e9521c0beb2decabb20dbe22927a7e5d359be8a0017e4d8d209",
+      "size": 17667
     },
     {
       "path": "src/object-v8.css",
-      "size": 152692,
-      "sha256": "3a3b1cd449f9285a7e09e239bdc8b707b4e8f3dd8ca69b2a9a082e0f30372ac4"
+      "sha256": "3a3b1cd449f9285a7e09e239bdc8b707b4e8f3dd8ca69b2a9a082e0f30372ac4",
+      "size": 152692
     },
     {
       "path": "src/object.html",
-      "size": 2666,
-      "sha256": "6f4eb6b6fbefaa1fc74bad75454db0d7954a7524b446f70a5e8fc972486312b8"
+      "sha256": "044e8a9dc8904549a024e622b2d7f45886ed13fc8218ae50f2e0a0d2cca736ec",
+      "size": 2509
     },
     {
       "path": "src/report-app.js",
-      "size": 218402,
-      "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf"
+      "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf",
+      "size": 218402
     }
   ],
-  "version": "8.0.229",
-  "size": 432118.0
+  "version": "8.0.230",
+  "size": 431961.0
 }

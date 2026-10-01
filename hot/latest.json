@@ -1,6 +1,4 @@
 {
-  "version": "8.0.228",
-  "size": 430276.0,
   "files": [
     {
       "path": "src/app.js",
@@ -11,6 +9,11 @@
       "path": "src/banner-frame.js",
       "size": 4564,
       "sha256": "4773bc041c9098238a3b5e15a8bda9073efec75681d0dbc51e81857eaf4e29d5"
+    },
+    {
+      "path": "src/daily-pagination.js",
+      "size": 1685,
+      "sha256": "b018cbaa691a0fc208b8b61a4802e962ecfd83a8b5fea5d287aac5dd1365409c"
     },
     {
       "path": "src/index.html",
@@ -24,13 +27,15 @@
     },
     {
       "path": "src/object.html",
-      "size": 2509,
-      "sha256": "044e8a9dc8904549a024e622b2d7f45886ed13fc8218ae50f2e0a0d2cca736ec"
+      "size": 2666,
+      "sha256": "6f4eb6b6fbefaa1fc74bad75454db0d7954a7524b446f70a5e8fc972486312b8"
     },
     {
       "path": "src/report-app.js",
       "size": 218402,
       "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf"
     }
-  ]
+  ],
+  "version": "8.0.229",
+  "size": 432118.0
 }

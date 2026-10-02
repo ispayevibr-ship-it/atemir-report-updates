@@ -161,9 +161,9 @@
       "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf"
     },
     {
-      "size": 12473,
+      "size": 13594,
       "path": "src/report-page-v287.js",
-      "sha256": "a5826bb9a823cd70352d62f5ca5f0f73c74bbab1d43178bbf45d78f04c8f86d4"
+      "sha256": "37f015b29a44aeae8a251e9dcb0d29c5d181fe76bb054eeb0199e19922116138"
     },
     {
       "size": 3709,
@@ -216,6 +216,6 @@
       "sha256": "0f8539a998a983fe1fe6ba1ce238632ef50c33ebc9dfd33a4efef7aafb7035b0"
     }
   ],
-  "version": "8.0.285",
-  "size": 578007.0
+  "size": 579128.0,
+  "version": "8.0.285"
 }

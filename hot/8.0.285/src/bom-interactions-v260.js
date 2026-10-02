@@ -1,0 +1,7 @@
+(()=>{"use strict";
+function css(){if(document.getElementById('bom260fixcss'))return;const s=document.createElement('style');s.id='bom260fixcss';s.textContent=`body.bn252 #bomUpload517{display:none!important}body.bn252 #bomUpload517.bom260ready{display:flex!important}body.bn252 .bomHelp257{display:none!important}body.bn252 .bomHelp257.bom260ready{display:flex!important}`;document.head.appendChild(s)}
+function card(){return [...document.querySelectorAll('#view>.card')].find(c=>/Загрузить ведомость марок/i.test(c.textContent||''))||null}
+function sync(){css();const c=card(),b=document.getElementById('bomUpload517'),h=document.querySelector('.bomHelp257');if(!c||!b)return;const s=c.querySelectorAll('select'),type=s[0],code=s[1];const ready=!!type&&!!code&&type.selectedIndex>0&&code.selectedIndex>0&&!type.disabled&&!code.disabled;b.classList.toggle('bom260ready',ready);h?.classList.toggle('bom260ready',ready)}
+function boot(){sync();document.addEventListener('change',e=>{if(e.target?.tagName==='SELECT')requestAnimationFrame(sync)},true);new MutationObserver(()=>requestAnimationFrame(sync)).observe(document.getElementById('view')||document.body,{childList:true,subtree:true})}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot);else boot();
+})();

@@ -1,6 +1,4 @@
 {
-  "version": "8.0.281",
-  "size": 553698.0,
   "files": [
     {
       "size": 34442,
@@ -78,9 +76,9 @@
       "sha256": "5ca1a6173cb45285c9ce5c306cff677e61220f699cb344b63435296bc879cc9a"
     },
     {
-      "size": 1524,
+      "size": 1567,
       "path": "src/bom.html",
-      "sha256": "4bdd87d72821438ab3aad1d6d8196cb7022e5906a0d2f21c5b53f7d1c79dfb1c"
+      "sha256": "a0b98ddc7189ac1c007fbc0ea288c38d94a917ef258c1623e03ba423258f8867"
     },
     {
       "size": 3934,
@@ -98,14 +96,14 @@
       "sha256": "454c50ac33af52f503dd251401acbbd2a95b319ecccf077cbdc4343c4c0ab37b"
     },
     {
-      "size": 942,
+      "size": 948,
       "path": "src/deadlines.html",
-      "sha256": "ef54a284d49b57d64427e0464a5e5aba01d7523290fbee6556fab7a7939c49e2"
+      "sha256": "f8439ace454c7e1559b74d44ee0346184a9f1436c862394d40b153100acb27d7"
     },
     {
-      "size": 902,
+      "size": 908,
       "path": "src/dynamics.html",
-      "sha256": "0c9a949263357ed4a16615cdd0a2abc9da606bb14383c4bf5596b4eb6f526e31"
+      "sha256": "7fddf069cd47c3c5aa29eaee7ea7b3fc23b7863dedc58e6920171bec9ed01a6e"
     },
     {
       "size": 17667,
@@ -118,9 +116,9 @@
       "sha256": "02b025217aa9394351082eb18b96d117a1fe934ac835bc30ce0ed302a894a617"
     },
     {
-      "size": 1146,
+      "size": 1189,
       "path": "src/invoices.html",
-      "sha256": "450de41961df4ea3e4768157208d253234630376343d4a7b8462a4ac1e5be977"
+      "sha256": "97419c9e1ea35791ff33de6a8c119714b1883b8c327822d13852adb792043b23"
     },
     {
       "size": 4408,
@@ -133,6 +131,11 @@
       "sha256": "af52303cca4827fa37d6efd09d7258dc4849be170d461de7e31d027887e2ad51"
     },
     {
+      "size": 1475,
+      "path": "src/object-core-v284.js",
+      "sha256": "7c6921ab55080b52fdafdfadbcef120b8c2d9ceb60442ddbed2d669204e81ef5"
+    },
+    {
       "size": 152692,
       "path": "src/object-v8.css",
       "sha256": "3a3b1cd449f9285a7e09e239bdc8b707b4e8f3dd8ca69b2a9a082e0f30372ac4"
@@ -143,14 +146,14 @@
       "sha256": "1dfe6d5ab6b1191088c9f80ee6ea03f96ddabfb3b8218c4879e20e45fa9ed3d7"
     },
     {
-      "size": 4620,
+      "size": 4867,
       "path": "src/page-shell-v272.js",
-      "sha256": "abcda30bfa04993f54d8bc15065cb4720e76c2c548bdbabd11c5d2fa5dfd3d42"
+      "sha256": "88d42632bf194886d7476119edc43ccdce58fd63da6692336f39da2045cef22f"
     },
     {
-      "size": 914,
+      "size": 920,
       "path": "src/progress.html",
-      "sha256": "919b03e953fe0177641b1810ca2c3504a929de51dfaaf29eb7a91fc18e7b751d"
+      "sha256": "23f030073a0c79977f772eba5146b22fe0d7718149f5cb6404037a22c00e7d8b"
     },
     {
       "size": 218402,
@@ -158,24 +161,29 @@
       "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf"
     },
     {
+      "size": 598,
+      "path": "src/reports-data-v285.js",
+      "sha256": "319f48b943384689a9bd61d7ca922f304338dc93d562836cd536e9da39aaa797"
+    },
+    {
       "size": 2898,
       "path": "src/reports-route-v276.js",
       "sha256": "ba715f1b55490721ce3608272b7ea36ca106aa83db1fd5401442a053922b16f4"
     },
     {
-      "size": 2858,
+      "size": 2710,
       "path": "src/reports-router-v279.js",
-      "sha256": "13d1aca388a002438c3f64e7a8e67dc614c795aeed630ce021677be156263263"
+      "sha256": "9f457c696701776d6605a70d45e8693f98f0ecb035d9a231e993ce957af22e89"
     },
     {
-      "size": 1323,
+      "size": 1410,
       "path": "src/reports.html",
-      "sha256": "80cf8b371c59e83fe4d648d93fb01a1c3fde1f8000fb03a1c617168a597d80fd"
+      "sha256": "52670d5601364bdae828cdf55250fd28a84b2b4caad22d2f855bed0b60496635"
     },
     {
-      "size": 882,
+      "size": 888,
       "path": "src/scheme.html",
-      "sha256": "b2d40473a5ee5ef0ab522c8e28260746cd80ec3fc1a8193c436d6f1275abd012"
+      "sha256": "f93dd49f92c047a02628353935eea0e0203b8adac6cee443de4876884b7f7d61"
     },
     {
       "size": 873,
@@ -183,9 +191,16 @@
       "sha256": "f09720f4adcd65e6f25dff4e7cbeb72669ac2485849f1a0b2b3130928391b6ff"
     },
     {
-      "size": 942,
+      "size": 797,
+      "path": "src/standalone-section-v282.js",
+      "sha256": "e3df35772eec178daba472ff21311f88e7637f383be59425b79f504109c822d5"
+    },
+    {
+      "size": 948,
       "path": "src/tasks.html",
-      "sha256": "8a12f4620780cf98e3260c8431c24c258726fbf4ffe196faaea658815699b3b5"
+      "sha256": "0f8539a998a983fe1fe6ba1ce238632ef50c33ebc9dfd33a4efef7aafb7035b0"
     }
-  ]
+  ],
+  "size": 556870.0,
+  "version": "8.0.285"
 }

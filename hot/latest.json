@@ -1,6 +1,5 @@
 {
-  "size": 432223.0,
-  "version": "8.0.231",
+  "version": "8.0.270",
   "files": [
     {
       "path": "src/app.js",
@@ -13,14 +12,89 @@
       "size": 4564
     },
     {
+      "path": "src/bom-button-fix.css",
+      "sha256": "9749731629a07c1b9aec48bd339953ebea90fc2c8022726227911620de70ecae",
+      "size": 1452
+    },
+    {
+      "path": "src/bom-change-markers-v271.js",
+      "sha256": "1ad12909d329641e5b62274cf7ea85e9e9ffe93e2e669a4ee521dde541043014",
+      "size": 4051
+    },
+    {
+      "path": "src/bom-interactions-v260.js",
+      "sha256": "8e16a75a03fcd1bab44d9cea786fa3826fdbdd7efb509bd1415d7052446b5030",
+      "size": 1323
+    },
+    {
+      "path": "src/bom-native-fixed.js",
+      "sha256": "f4b8d12ddaa1078a3feba159c1f1cc1b237a685f64d3bbe59ce0b946e821d223",
+      "size": 11088
+    },
+    {
+      "path": "src/bom-native-v252.js",
+      "sha256": "810dfbe1af1970ad231ccde2acb2c8406828a32087a172bde04f1e7030c8fe3f",
+      "size": 15657
+    },
+    {
+      "path": "src/bom-native.js",
+      "sha256": "d480c1f23be13a2e53162a66315fc23a37f05d71f756080eb23f43b38e27fb99",
+      "size": 15552
+    },
+    {
+      "path": "src/bom-protect-used-v258.js",
+      "sha256": "5f85abbd678be9edd85658b0dca3279041d076c6ec995d3bb2f54b2bf80bc56c",
+      "size": 3474
+    },
+    {
+      "path": "src/bom-ui-v257.js",
+      "sha256": "b4b450b9c00cb5756c90fae3e87ace70436ab3d4b7efeacf3fe467475e349cb0",
+      "size": 6595
+    },
+    {
+      "path": "src/bom-unit-modal-v259.js",
+      "sha256": "bbdd97ee6266fee4f149e09b74d188736d7b049bc50f9774772ed962d511a885",
+      "size": 1568
+    },
+    {
+      "path": "src/bom-unit-v255.js",
+      "sha256": "e1a37e3a7b205e8de1cea03d00916738246d75b9a049364cce24a1cc5d898218",
+      "size": 2682
+    },
+    {
+      "path": "src/bom-upload-v254.js",
+      "sha256": "9f0115f52ca8e6796877c934f56ebf7e6c9f575c527540d1f9321b912af20f4f",
+      "size": 2601
+    },
+    {
+      "path": "src/bom-usage-v267.js",
+      "sha256": "5ca1a6173cb45285c9ce5c306cff677e61220f699cb344b63435296bc879cc9a",
+      "size": 6861
+    },
+    {
       "path": "src/daily-pagination.js",
-      "sha256": "f9190a845d8ee7ab1bd1096602d74a9357597dc41e6e5a030ba7fbe411cd3751",
-      "size": 1947
+      "sha256": "752a47f30cc8515b8614234150c5bb30202497a27055439d68c648ed5f21acdf",
+      "size": 3203
+    },
+    {
+      "path": "src/daily-report-nav-v256.js",
+      "sha256": "454c50ac33af52f503dd251401acbbd2a95b319ecccf077cbdc4343c4c0ab37b",
+      "size": 2812
     },
     {
       "path": "src/index.html",
       "sha256": "cc4fc44db9310e9521c0beb2decabb20dbe22927a7e5d359be8a0017e4d8d209",
       "size": 17667
+    },
+    {
+      "path": "src/marks-design.js",
+      "sha256": "d020db28982c829bfc19a6bbe6f74fecb1a4add4c2f7edebc4acc74bd2b75bca",
+      "size": 4408
+    },
+    {
+      "path": "src/marks-table-ui.js",
+      "sha256": "af52303cca4827fa37d6efd09d7258dc4849be170d461de7e31d027887e2ad51",
+      "size": 13950
     },
     {
       "path": "src/object-v8.css",
@@ -29,13 +103,14 @@
     },
     {
       "path": "src/object.html",
-      "sha256": "044e8a9dc8904549a024e622b2d7f45886ed13fc8218ae50f2e0a0d2cca736ec",
-      "size": 2509
+      "sha256": "fe0c36c0d2f5f77ff9b3244ae9fb4d35e8474a6fcd288b483e49b6fc20a676e4",
+      "size": 2788
     },
     {
       "path": "src/report-app.js",
       "sha256": "767decb6da2b56c4b54c61d7d93a2327124adb5bf49cebe5330c1cc86ad08dbf",
       "size": 218402
     }
-  ]
+  ],
+  "size": 527832.0
 }

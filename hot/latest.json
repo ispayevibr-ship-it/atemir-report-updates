@@ -1,5 +1,4 @@
 {
-  "version": "8.0.285",
   "files": [
     {
       "sha256": "1c3d0051ebeb797606924fe22c4b8523b7dc1002e620ae80767757f12947d5ec",
@@ -162,14 +161,19 @@
       "size": 218402
     },
     {
-      "sha256": "37f015b29a44aeae8a251e9dcb0d29c5d181fe76bb054eeb0199e19922116138",
+      "sha256": "bfd9a5960e60aa4d88a78428082743cfa63ded27be5bcb06034ef78bcf6e5aa3",
       "path": "src/report-page-v287.js",
-      "size": 13594
+      "size": 14080
     },
     {
-      "sha256": "1a9b53778bbf8d9d59ba008ed7c4b30d948c53d01eeacd1084c748cca6a6dba1",
+      "sha256": "63b3971141c0c17548c02ec45b3d98bd8928283561a140587f85b923495828d3",
+      "path": "src/report-photos-v288.js",
+      "size": 5057
+    },
+    {
+      "sha256": "344e412cc06d06de4165d61ac1afefa28be0986e7b8abf720cb9c4e3542ac3d5",
       "path": "src/report.html",
-      "size": 4820
+      "size": 4865
     },
     {
       "sha256": "319f48b943384689a9bd61d7ca922f304338dc93d562836cd536e9da39aaa797",
@@ -177,9 +181,9 @@
       "size": 598
     },
     {
-      "sha256": "efd4704f7bab21499bd711402ccc514b102bd8f031f188fcdaa0068fff2b852f",
+      "sha256": "b809a8f31007f4a4f860a3e8b18879af9478c156d8f70565d5e4a6d98dc7b8bc",
       "path": "src/reports-list-page.js",
-      "size": 3838
+      "size": 5215
     },
     {
       "sha256": "ba715f1b55490721ce3608272b7ea36ca106aa83db1fd5401442a053922b16f4",
@@ -217,5 +221,6 @@
       "size": 948
     }
   ],
-  "size": 580239.0
+  "version": "8.0.285",
+  "size": 587204.0
 }

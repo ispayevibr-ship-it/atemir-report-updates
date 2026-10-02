@@ -1,4 +1,6 @@
 {
+  "size": 566611.0,
+  "version": "8.0.285",
   "files": [
     {
       "path": "src/app.js",
@@ -82,8 +84,8 @@
     },
     {
       "path": "src/daily-fixes-v271.js",
-      "sha256": "bf6e3e58301c20dcc7d4799132c9fa7444bff75c9e31b43ad7cb14ec617a22de",
-      "size": 3934
+      "sha256": "fa55a320492674e45e707028a1de022ddfdb2e5482090f0dd22707ad0d2e4c4b",
+      "size": 3839
     },
     {
       "path": "src/daily-pagination.js",
@@ -215,7 +217,5 @@
       "sha256": "0f8539a998a983fe1fe6ba1ce238632ef50c33ebc9dfd33a4efef7aafb7035b0",
       "size": 948
     }
-  ],
-  "size": 566706.0,
-  "version": "8.0.285"
+  ]
 }

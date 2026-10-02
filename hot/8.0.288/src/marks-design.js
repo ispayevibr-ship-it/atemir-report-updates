@@ -1,0 +1,21 @@
+(()=>{"use strict";
+const style=document.createElement('style');style.textContent=`
+body.marksPolish242 #view{background:#f5f8fa!important;padding:18px 20px 28px!important;color:#17364d;font-size:12px}
+body.marksPolish242 #view select,body.marksPolish242 #view input{height:38px;border:1px solid #d7e1e8;border-radius:7px;background:#fff;padding:0 11px;color:#17364d;outline:none;font-size:11px}
+body.marksPolish242 #view select:focus,body.marksPolish242 #view input:focus{border-color:#2b95c9;box-shadow:0 0 0 3px rgba(43,149,201,.1)}
+body.marksPolish242 .marksTop242,body.marksPolish242 .marksProject242{background:#fff!important;border:1px solid #e0e8ed!important;border-radius:10px!important;box-shadow:0 2px 8px rgba(19,50,72,.04)!important}
+body.marksPolish242 .marksTop242{padding:17px 20px!important;margin:0 0 12px!important}
+body.marksPolish242 .marksTop242>.rowhead{margin:0 0 12px!important}.marksPolish242 .marksTop242>.rowhead b{font-size:14px;color:#17364d}
+body.marksPolish242 .marksTop242 .grid{display:grid!important;grid-template-columns:minmax(220px,310px) minmax(220px,310px) minmax(300px,1fr)!important;gap:12px!important;align-items:end!important}
+body.marksPolish242 .marksTop242 .grid>div{display:flex;flex-direction:column;gap:5px}.marksPolish242 .marksTop242 label{font-size:10px;color:#61798a}
+body.marksPolish242 .marksProject242{padding:13px 16px!important;margin:0 0 12px!important;display:flex;align-items:center;gap:10px}.marksPolish242 .marksProject242 label{font-size:11px;color:#61798a;white-space:nowrap}.marksPolish242 #bomProjectFilter714{min-width:340px}
+body.marksPolish242 .marksStats242{display:grid!important;grid-template-columns:repeat(8,minmax(105px,1fr))!important;gap:9px!important;margin:0 0 12px!important;padding:0!important;border:0!important;background:transparent!important}
+body.marksPolish242 .marksStat242{background:#fff;border:1px solid #e0e8ed;border-radius:9px;padding:10px 12px;min-height:62px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 1px 5px rgba(19,50,72,.035);font-size:9.5px;color:#718696;line-height:1.2}
+body.marksPolish242 .marksStat242 b{display:block;font-size:18px;color:#17364d;line-height:1.1;margin-top:4px}.marksPolish242 .marksStat242.ready242 b{color:#16895a}.marksPolish242 .marksStat242.work245 b{color:#247db9}.marksPolish242 .marksStat242.done245 b{color:#23885a}
+body.marksPolish242 .marksTools242{display:flex!important;align-items:center;gap:8px;background:#fff;border:1px solid #e0e8ed;border-radius:9px;padding:10px 12px!important;margin:0 0 10px!important}.marksPolish242 .marksTools242 input{flex:1;min-width:260px}.marksPolish242 .marksTools242 button{height:36px;border:1px solid #cfdce5;border-radius:7px;background:#fff;color:#31566f;padding:0 14px;font-size:10.5px;font-weight:700;cursor:pointer}.marksPolish242 .marksTools242 button:first-of-type{background:#1695cf;color:#fff;border-color:#1695cf}
+@media(max-width:1350px){body.marksPolish242 .marksStats242{grid-template-columns:repeat(4,1fr)!important}}@media(max-width:1100px){body.marksPolish242 .marksStats242{grid-template-columns:repeat(2,1fr)!important}body.marksPolish242 .marksTop242 .grid{grid-template-columns:1fr!important}}
+`;
+document.head.appendChild(style);
+function polish(){const view=document.getElementById('view');if(!view)return;const box=view.querySelector('#bomRows');if(!box){document.body.classList.remove('marksPolish242');return}document.body.classList.add('marksPolish242');const upload=view.querySelector('#bomUpload517');const top=upload?.closest('.card');if(top)top.classList.add('marksTop242');const pf=view.querySelector('#bomProjectFilter714');const project=pf?.closest('.card');if(project)project.classList.add('marksProject242');const stats=view.querySelector('.stat');if(stats){stats.classList.add('marksStats242');[...stats.children].forEach(c=>c.classList.add('marksStat242'))}const search=view.querySelector('#bomNameSearch');if(search){search.placeholder='Поиск по марке или наименованию: К1, Колонна, Балка…';search.parentElement?.classList.add('marksTools242')}}
+let scheduled=false;const view=document.getElementById('view');const obs=new MutationObserver(()=>{if(scheduled)return;scheduled=true;requestAnimationFrame(()=>{scheduled=false;polish()})});if(view)obs.observe(view,{childList:true,subtree:true});polish();
+})();

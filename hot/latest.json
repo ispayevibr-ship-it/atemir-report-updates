@@ -1,4 +1,5 @@
 {
+  "version": "8.0.288",
   "files": [
     {
       "sha256": "1c3d0051ebeb797606924fe22c4b8523b7dc1002e620ae80767757f12947d5ec",
@@ -81,7 +82,7 @@
       "size": 6226
     },
     {
-      "sha256": "8e47285e96e7c217698fe69e4725520745dbc76855150ec35014fc38001c71ed",
+      "sha256": "2306a2ee71520dc563277e04c53d66bfee66d1efbccc3d5c59c2888884ce7c3b",
       "path": "src/bom.html",
       "size": 1536
     },
@@ -176,6 +177,11 @@
       "size": 4949
     },
     {
+      "sha256": "bef6f58bb63e3378377b7280a8d5d9068f95f4e677f0857688f85ca8000f8d96",
+      "path": "src/page-shell-v289.js",
+      "size": 3936
+    },
+    {
       "sha256": "23f030073a0c79977f772eba5146b22fe0d7718149f5cb6404037a22c00e7d8b",
       "path": "src/progress.html",
       "size": 920
@@ -196,7 +202,7 @@
       "size": 5057
     },
     {
-      "sha256": "344e412cc06d06de4165d61ac1afefa28be0986e7b8abf720cb9c4e3542ac3d5",
+      "sha256": "f775eec9048e530692da9863009a352d974a41f3dd2af91e861078867ba35375",
       "path": "src/report.html",
       "size": 4865
     },
@@ -221,7 +227,7 @@
       "size": 2710
     },
     {
-      "sha256": "6211fcb254ee25e397e09c7e97e90ed927040f65b40f3eb3f29c0d5dc218b9a1",
+      "sha256": "3c366034edb036e3385bbe5254e69df05f80d3022502bb4b54d6afd47f59fc61",
       "path": "src/reports.html",
       "size": 2622
     },
@@ -246,6 +252,5 @@
       "size": 948
     }
   ],
-  "size": 602556.0,
-  "version": "8.0.285"
+  "size": 606492.0
 }
